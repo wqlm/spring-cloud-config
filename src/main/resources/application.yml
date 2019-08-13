@@ -15,3 +15,9 @@ spring:
           uri: https://github.com/wqlm/myTest
           # 存放 git 仓库的本地地址
           basedir: D:\Desktop\wqlm\Spring Cloud\config_git
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
