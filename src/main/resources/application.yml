@@ -19,5 +19,8 @@ spring:
 management:
   endpoints:
     web:
-      exposure:
-        include: '*'
+      expose: "*"
+
+# 配置到 jar 启动参数中
+#server:
+#  port: 8071
